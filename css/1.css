@@ -1,0 +1,45 @@
+.body,img,div,dl,dd,dt,span,ul,li{ margin:0; padding:0;}
+a{ text-decoration:none; color:#000;}
+li{ list-style:none;}
+
+.swiper-container {
+    width: 4rem;
+    height:6.48rem;
+}  
+.a{ background:url(../images/1.png) no-repeat; width:4rem; height:6.48rem; background-size:100% 100%; position:relative;}
+.a_name{ position:absolute; left:2rem; top:4.16rem; font-size:0.5rem; color:#000;font-weight:bold;}
+.a_grzl{position:absolute; left:0.45rem; top:0.72rem; background:url(../images/grjl.png) no-repeat; width:3.08rem; height:0.92rem;}
+.b{ background:url(../images/2.png) no-repeat; width:4rem; height:6.48rem;background-size:100% 100%; position:relative;}
+.b_position,.b_pla,.b_tel,.b_eml{ position:absolute; left:1.5rem;font-size:0.2rem; font-weight:bold;color:#FFF; }
+.b_position{top:4.2rem;}
+.b_pla{ top:4.6rem;} 
+.b_tel{ top:5rem;} 
+.b_eml{ top:5.4rem;}
+.c{ background:url(../images/3.png) no-repeat; width:4rem; height:6.48rem;background-size:100% 100%; position:relative;}
+.c_time_1,.c_time_2,.c_time_3{font-weight:bold;color:#FFF;font-size:0.2rem; position:absolute; }
+.c_time_1{ left:2.1rem; top:4.05rem;}
+.c_time_2{ left:0.18rem;  top:4.65rem;}
+.c_time_3{ left:2.05rem;  top:5.34rem;}
+
+.d{ background:url(../images/4.png) no-repeat; width:4rem; height:6.48rem;background-size:100% 100%;}
+.d_skill_1,.d_skill_2,.d_skill_3,.d_skill_4,.d_skill_5{ width:auto; height:0.3rem;  font-size: 0.3em; position:absolute;border-radius:0.08rem;
+color:#FFF; font-weight:bold;
+     
+   background: -webkit-linear-gradient(left top, red , yellow);
+      }
+.d_skill_1{left:0.21rem;  top:3.89rem; }
+.d_skill_2{ left:1rem; top:3.89rem;}
+.d_skill_3{ left:1.55rem; top:3.89rem;}
+.d_skill_4{ left:0.4rem; top:4.4rem;}
+.d_skill_5{ left:0.3rem;top:4.8rem;}
+.e{width:4rem; height:6.48rem; background:#0F3; }
+.e span{ display:block; font-size:0.2rem; font-weight:bold; padding-top:0.2rem;}
+.e_1{ padding-top:0.5rem;}
+.e img{ width:2rem; height:3rem; display:block; margin:0 auto;  }
+.e p{ font-size:0.15rem;  }
+
+
+.f{width:4rem; height:6.48rem; background:#0F3;}
+.f li{ float:left; padding:0.2rem 0.1rem;}
+.f span{display:block; font-size:0.2rem; font-weight:bold; padding-top:0.2rem;}
+.f img{ width:1.5rem; height:2rem; display:block;  }
