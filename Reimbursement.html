@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head lang="zh-CN">
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/public.css" />
+
+<link rel="stylesheet" href="css/Reimbursement.css" />
+</head>
+
+
+<div class="header">
+    <div class="head">
+        <ul id="left">
+        	<li class="logo" >全速网络</li>
+            <li class="index" ><a href="">首页</a></li>
+            <li ><a  href="">考勤</a></li>
+            <li ><a href="">消息中心</a></li>
+            <li ><a href="">采购</a></li>
+            <li ><a href="">审批管理</a></li>
+        </ul>
+        <dl>
+        	<dd><img src="images/sun.jpg" /></dd>
+        	<dd>杭州37℃  2015年7月30日 星期四</dd>
+            <dd><img src="images/hpimage.jpg"  id="hp"/><i></i>
+            	<ul  id="hp-1">
+                	<li><a href="#"><i class="grzl"></i>我的资料</a></li>
+                    <li><a href="#"><i class="xgmm"></i>修改密码</a></li>
+                    <li><a href="#"><i class="grsb"></i>个人设备</a></li>
+                    <li><a href="#"><i class="wdbx"></i>我的报销</a></li>
+                    <li><a href="#"><i class="wdkq"></i>我的考勤</a></li>
+                    <li><a href="#"><i></i>退出</a></li>
+                </ul>
+            </dd>
+        </dl>
+        
+    </div>
+</div>
+
+        
+<div class="main" class="clearfix">
+	<div class="mainer" class="clearfix">
+    	<dl class="clearfix">
+        	 		<form>
+            <div class="reimur" >
+              <div class="reimur-left">
+                   <dd><span>当前头像</span>:<input></dd>
+                   <dd><span>姓名</span>:<input></dd>
+                   <dd><span>姓名</span>:<input></dd>
+                   <dd><span>姓名</span>:<input></dd>
+                   <dd><span>姓名</span>:<input></dd>
+                  
+               </div>
+               <div class="reimur-right">
+                   <dd><span>姓名</span>:<input></dd>
+                   <dd><span>发生日期</span>:<input class="J-date" type="text" value="" readonly />
+                                   </dd>
+                   <dd><span>姓名</span>:<input></dd>
+                   <dd><span>姓名</span>:<input></dd>
+                
+           
+               </div>
+               <div class="reimur-bot">
+            	<input type="submit" value="保存">
+               </div>
+            </div>
+           	
+            </form>
+   
+        </dl>
+    </div>
+</div>
+
+
+
+<div class="bottom">
+	<p>杭州全速网络技术有限公司　版本　2015V1.0</p>
+</div>
+</body>
+<script src="js/jquery-3.0.0.min.js"></script>
+
+
+<script type="text/javascript">
+	$("#left li").hover(function(){
+		
+		$(this).addClass("text-der");
+		
+		
+	},function(){
+		$(this).removeClass("text-der");
+	}
+	)
+	
+$("#main-top li").hover(function(){
+	
+		$(this).addClass("main-top-li-bg"),
+	 	$(this).find(".main-top-li").addClass("main-top-li-bod"),
+		$(this).find("span").addClass("main-top-li-span-pos"),
+		$(this).find("h3").addClass("main-top-li-h3-color")
+	},function(){
+			$(this).removeClass();
+			$(this).find(".main-top-li").removeClass("main-top-li-bod");
+			$(this).find("span").removeClass("main-top-li-span-pos")
+			$(this).find("h3").removeClass("main-top-li-h3-color")
+	}
+	
+	);
+
+ 
+$(".mainer dl dd h3").click(function(){
+	
+	$(this).parent().children("h4").slideToggle("slow");
+
+
+})
+
+
+var scriptNode=document.createElement("script");
+	scriptNode.setAttribute("data-main","js/date.js?v="+(new Date()));
+	scriptNode.src="js/lib/require.min.js";
+	document.body.appendChild(scriptNode);
+
+
+</script>
+</html>

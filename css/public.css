@@ -1,0 +1,53 @@
+html,body,div,p,ul,li,h1,h2,h3,h4,h5,h6,a,img,dl,dt,dd,form,input,span,b,i,em,strong{ margin:0;padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+a{ text-decoration:none; color:#b4b4b4;}
+.clearfix{*zoom:1;}
+.clearfix:after{ content:"."; visibility:hidden; clear:both; height:0; font-size:0; display:block;}
+
+
+
+
+.header{ position:relative; width:100%;border-bottom:1px solid #dfdfdf;height:100px;background:#fff;}
+.head{ font-size:16px; position:absolute; width:1280px; left:50%;color:#b4b4b4; margin-left:-640px;   }
+.head ul{ float:left;}
+.head ul li{ cursor:pointer; float:left; height:45px; line-height:45px;  width:72px; text-align:center; margin-left:10px;}
+.text-der{ border-bottom:#abddf0 2px solid;}
+.head ul .logo{ text-indent:-999999999px; background:url(../images/index_logo.jpg) no-repeat; width:270px; }
+.head dl{ float:right;}
+.head dl dd{ float:left; height:45px; font-size:14px; line-height:45px; position:relative;}
+.head dl dd ul{ display:none; z-index:21;  background:#FFF;position:absolute; width:132px; height:198x; padding:8px  0px 0px 0px; box-sizing:border-box;left:-94px; border:#ededed 1px solid; border-radius:5px;}
+.head dl dd ul li{ width:100%; height:30px; margin-left:0px; font-weight:bold; text-align:center; line-height:30px; border-bottom:#ededed 1px solid;}
+.head dl dd ul li i{ display:inline-block; width:16px; height:12px; background:url(../images/indexspirte.png) no-repeat; background-size:1000px 1000px;}
+.head dl dd ul li .grzl{ background-position:-29px -32px; }
+.head dl dd ul li .xgmm{background-position:-51px -33px;}
+.head dl dd ul li .grsb{background-position:-69px -33px;}
+.head dl dd ul li .wdbx{background-position:-85px -32px;}
+.head dl dd ul li .wdkq{background-position:-101px -30px;height:15px;}
+
+.head dl dd ul li:hover { background:#4aaaec; }
+.head dl dd ul li:hover .xgmm{background-position:-52px -48px;} 
+.head dl dd ul li:hover .wdkq{background-position:-69px -49px;} 
+.head dl dd ul li:hover .grsb{background-position:-69px -49px;} 
+.head dl dd ul li:hover .wdbx{background-position:-85px -52px;} 
+.head dl dd ul li:hover .wdkq{background-position:-101px -52px;} 
+.head dl dd ul li a:hover  .grzl{background-position:-29px -48px;} 
+.head dl dd ul li a:hover{color:#FFF;}
+
+
+
+.bottom{ width:100%; height:93px; background:#e7e7e7;}
+.bottom p{ font-size:14px; color:#d2d2d2; text-align:center;height:93px; line-height:93px;}
+
+
+
+
+
+.mainer dl dt{
+	position:relative;
+	font-size:22px; 
+	line-height:22px;
+	height:22px;
+	margin-bottom:50px;
+}
+

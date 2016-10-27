@@ -1,0 +1,88 @@
+.main{
+	width:100%;
+	
+	background:#fafafa;
+	padding-top:50px;
+	padding-bottom:300px;
+	
+}
+.mainer{
+    width:1280px;
+	margin:0 auto;
+	 height:auto;
+	 background:#fff;
+	 border:1px #dcdcdc solid;
+	 box-sizing:border-box;
+	 padding:50px 85px 53px	87px;
+}
+
+
+
+.mainer dl{
+	height:auto;
+}
+
+.mainer dl dt i{
+	  position:absolute;
+	  width:11px;
+	  height:22px;
+	  background:#4f9cee;
+}
+
+.mainer dl dt h5{
+	position:absolute;
+	left:27px;
+}
+
+.mainer dl dt span{
+	 position:absolute;
+	  width:90%;
+	  top:11px;
+	  right:0;
+	 border:1px solid #e5e5e5;
+}
+.mainer dl .reimur{
+ position:relative;
+ width:1105px;
+ height:554px;
+
+}
+.mainer dl .reimur-left{
+	float:left;
+}
+.mainer dl .reimur-right{
+	float:right;
+}
+.mainer dl  dd{
+	font-size:15px;
+	color:#4e4e4e;
+	font-weight:bold;
+	height:32px;
+	margin-bottom:15px;
+}
+.mainer dl  dd  span{
+	display:inline-block;
+	 width:67px;
+	text-align:justify; 
+	text-justify:distribute-all-lines; 
+	text-align-last:justify; 
+
+}
+.mainer dl  dd input{ 
+	width:238px;
+     height:32px; 
+	border:1px solid #dcdcdc; 
+	border-radius:5px;
+}
+.mainer dl .touxiang{ height:64px;}
+.mainer dl .reimur-bot{
+	 position:absolute;
+	 bottom:0;
+}
+.mainer dl .reimur-bot input{
+	margin-left:65px;
+	font-size:16px;
+	width:150px;
+	height:30px;
+  background:#46a7f1;
+}

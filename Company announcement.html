@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/Company announcement.css" />
+<link rel="stylesheet" href="css/public.css" />
+</head>
+
+<body>
+<div class="header">
+    <div class="head">
+        <ul id="left">
+        	<li class="logo" >全速网络</li>
+            <li class="index" ><a href="">首页</a></li>
+            <li ><a  href="">考勤</a></li>
+            <li ><a href="">消息中心</a></li>
+            <li ><a href="">采购</a></li>
+            <li ><a href="">审批管理</a></li>
+        </ul>
+        <dl>
+        	<dd><img src="images/sun.jpg" /></dd>
+        	<dd>杭州37℃  2015年7月30日 星期四</dd>
+            <dd><img src="images/hpimage.jpg"  id="hp"/><i></i>
+            	<ul  id="hp-1">
+                	<li><a href="#"><i class="grzl"></i>我的资料</a></li>
+                    <li><a href="#"><i class="xgmm"></i>修改密码</a></li>
+                    <li><a href="#"><i class="grsb"></i>个人设备</a></li>
+                    <li><a href="#"><i class="wdbx"></i>我的报销</a></li>
+                    <li><a href="#"><i class="wdkq"></i>我的考勤</a></li>
+                    <li><a href="#"><i></i>退出</a></li>
+                </ul>
+            </dd>
+        </dl>
+        
+    </div>
+</div>
+
+        
+<div class="main" class="clearfix">
+	<div class="mainer" class="clearfix">
+    	<dl class="clearfix">
+        	<dt>
+            	<i></i><h5>公司公告</h5><span></span>
+            </dt>
+            <dd class="clearfix">
+            	<h1></h1>
+                <h2>2015清明节假日放假通知<i></i><span>9月29日 18:00</span></h2>
+                <h3>显示全部</h3>
+                <h4  id="J_table">
+                 <!--
+		<table class="table" cellspacing="0" cellpadding="0">
+			<tr>
+				<td colspan="7">2015年中秋节放假安排（9月）</td>
+			</tr>
+			<tr>
+				<td>周一</td>
+				<td>周二</td>
+				<td>周三</td>
+				<td>周四</td>
+				<td>周五</td>
+				<td>周六</td>
+				<td>周日</td>
+			</tr>
+		</table>
+		-->
+                </h4>
+            </dd>
+            <dd class="clearfix">
+            	<h1></h1>
+                <h2>2015清明节假日放假通知<i></i><span>9月29日 18:00</span></h2>
+                <h3>显示全部</h3>
+                <h4>
+                 
+                </h4>
+            </dd>
+            <dd class="clearfix">
+            	<h1></h1>
+                <h2>2015清明节假日放假通知<i></i><span>9月29日 18:00</span></h2>
+                <h3>显示全部</h3>
+                <h4>
+                 
+                </h4>
+            </dd>
+            <dd class="clearfix">
+            	<h1></h1>
+                <h2>2015清明节假日放假通知<i></i><span>9月29日 18:00</span></h2>
+                <h3>显示全部</h3>
+                <h4>
+                 
+                </h4>
+            </dd>
+            <dd class="clearfix">
+            	<h1></h1>
+                <h2>2015清明节假日放假通知<i></i><span>9月29日 18:00</span></h2>
+                <h3>显示全部</h3>
+                <h4>
+                 
+                </h4>
+            </dd>
+        </dl>
+    </div>
+</div>
+
+
+
+<div class="bottom">
+	<p>杭州全速网络技术有限公司　版本　2015V1.0</p>
+</div>
+</body>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/Company announcement.js"></script>
+<script>
+	$("#left li").hover(function(){
+		
+		$(this).addClass("text-der");
+		
+		
+	},function(){
+		$(this).removeClass("text-der");
+	}
+	)
+	
+$("#main-top li").hover(function(){
+	
+		$(this).addClass("main-top-li-bg"),
+	 	$(this).find(".main-top-li").addClass("main-top-li-bod"),
+		$(this).find("span").addClass("main-top-li-span-pos"),
+		$(this).find("h3").addClass("main-top-li-h3-color")
+	},function(){
+			$(this).removeClass();
+			$(this).find(".main-top-li").removeClass("main-top-li-bod");
+			$(this).find("span").removeClass("main-top-li-span-pos")
+			$(this).find("h3").removeClass("main-top-li-h3-color")
+	}
+	
+	);
+
+ 
+/*$(".mainer dl dd h3").click(function(){
+	
+	$(this).parent().children("h4").slideToggle("slow");
+
+
+})*/
+</script>
+</html>

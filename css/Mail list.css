@@ -1,0 +1,68 @@
+.main{ 
+
+background:#fafafa;
+}
+.mainer{ width:1280px;
+ position:relative;
+ margin:0 auto;
+}
+
+.maillist{
+	width:100%;
+	height:892px;
+	padding-top:53px;
+}
+
+.maillist-head{
+	 width:866px;
+	 height:43px;
+	 margin:0 auto;
+}
+.maillist-head select,input,.sousuo{ height:43px;}
+.maillist-head select{
+	 width:308px;
+}
+.maillist-head  input{
+	width:407px;
+}
+.maillist-head  .sousuo{
+	width:99px;
+}
+.maillist-main{
+	border-collapse:collapse; 
+}
+.maillist-main tr{
+	border-collapse:collapse; 
+	width:1280px;
+	height:40px;
+	border-top:#eeeff0 1px solid;
+	border-bottom:#eeeff0 1px solid;
+}
+
+.maillist-main  .maillist-main-top{
+	border-collapse:collapse;
+	width:1280px;
+	height:40px;
+	border-top:0;
+	border-bottom:#dcdcdc1 1px solid;
+}
+.maillist-main tr td{ 
+	font-size:16px;
+	color:#292929;
+	font-weight:900;
+	width:160px;
+	text-align:center;
+}
+.fenye{
+	text-align:center;
+}
+.fenye li{ 
+display:inline-block;
+margin-left:7px;
+padding:9px 12px;
+border:1px #e2e2e2 solid;
+
+}
+.fenye li:hover{
+	background:#00a7ea;
+}
